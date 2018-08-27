@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:columnCount="7"
+                android:rowCount="4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:text="" />
+
+
+                <EditText
+                    android:id="@+id/primeiroTermo1"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="0"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/primeiroTermo2"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/primeiroTermo3"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="2"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/primeiroTermo4"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="3"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+
+                <Spinner
+                    android:id="@+id/operador1"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_row="0"
+                    android:fontFamily="casual"
+                    android:visibility="visible" />
+
+                <Spinner
+                    android:id="@+id/operador2"
+                    android:layout_width="75dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_row="1"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/operador3"
+                    android:layout_width="75dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_row="2"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/operador4"
+                    android:layout_width="75dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_row="3"
+                    android:visibility="invisible" />
+
+
+                <EditText
+                    android:id="@+id/segundoTermo1"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_row="0"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/segundoTermo2"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_row="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/segundoTermo3"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_row="2"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/segundoTermo4"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_row="3"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+
+                <TextView
+                    android:id="@+id/sinalIgual1"
+                    android:fontFamily="casual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_row="0"
+                    android:text="="
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/sinalIgual2"
+                    android:fontFamily="casual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_row="1"
+                    android:text="="
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/sinalIgual3"
+                    android:fontFamily="casual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_row="2"
+                    android:text="="
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/sinalIgual4"
+                    android:fontFamily="casual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_row="3"
+                    android:text="="
+                    android:visibility="invisible" />
+
+
+                <EditText
+                    android:id="@+id/resultado1"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="6"
+                    android:layout_row="0"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/resultado2"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="6"
+                    android:layout_row="1"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/resultado3"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="6"
+                    android:layout_row="2"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/resultado4"
+                    android:layout_width="70dp"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_column="6"
+                    android:layout_row="3"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+            </GridLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Reiniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="?android:attr/colorPrimaryDark"
+                android:elevation="0dp"
+                android:onClick="reiniciaJogo"
+                android:text="Reiniciar"
+                android:textColor="@android:color/white"
+                tools:layout_editor_absoluteX="376dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/button_Ajuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:enabled="false"
+                android:onClick="forneceAjuda"
+                android:text="Ajuda"
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/button_Sortear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:enabled="false"
+                android:onClick="sorteiaContas"
+                android:text="Sortear" />
+
+            <Button
+                android:id="@+id/button_Validar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:elevation="0dp"
+                android:enabled="false"
+                android:onClick="validarContas"
+                android:text="Validar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Chronometer
+                    android:id="@+id/cronometro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textLabel_dificuldade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/default_padding"
+                        android:paddingRight="@dimen/default_padding"
+                        android:text="dificuldade (modo)"
+                        android:textAlignment="center"
+                        tools:text="dificuldade (modo)" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="@dimen/default_padding"
+                            android:text="0"
+                            android:textAlignment="viewStart" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="@dimen/default_padding"
+                            android:paddingRight="@dimen/default_padding"
+                            android:text="4   5"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingRight="@dimen/default_padding"
+                            android:text="9"
+                            android:textAlignment="viewEnd" />
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/progressBar_dificuldade"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:max="10"
+                        android:min="0"
+                        android:paddingLeft="@dimen/default_padding"
+                        android:paddingRight="@dimen/default_padding"
+                        android:progress="10"
+                        android:progressTint="@android:color/holo_green_dark" />
+
+                    <TextView
+                        android:id="@+id/textLabel_acuracia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/default_padding"
+                        android:paddingRight="@dimen/default_padding"
+                        android:text="acurácia (%)"
+                        android:textAlignment="center"
+                        tools:text="acurácia (%)" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="@dimen/default_padding"
+                            android:text="0"
+                            android:textAlignment="viewStart" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingRight="@dimen/default_padding"
+                            android:text="100"
+                            android:textAlignment="viewEnd" />
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/progressBar_acuracia"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:max="100"
+                        android:min="0"
+                        android:paddingLeft="@dimen/default_padding"
+                        android:paddingRight="@dimen/default_padding"
+                        android:progress="100"
+                        android:progressTint="@android:color/holo_orange_dark" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textLabel_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:paddingLeft="@dimen/default_padding"
+                android:paddingRight="@dimen/default_padding"
+                android:text="feedback"
+                android:textAlignment="textStart"
+                tools:text="feedback" />
+
+            <TextView
+                android:id="@+id/text_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:background="@android:color/darker_gray"
+                android:fontFamily="casual"
+                android:paddingLeft="@dimen/default_padding"
+                android:paddingRight="@dimen/default_padding"
+                android:text="Zzz..."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Zzz..." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

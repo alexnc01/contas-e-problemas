@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contas &amp; Problemas</string>
+    <string name="btnContas">Contas</string>
+    <string name="btnProblemas">Problemas</string>
+</resources>
