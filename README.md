@@ -1,0 +1,6 @@
+# contas-e-problemas
+O "Contas e Problemas" é uma aplicação para o sistema operacional Android, da Google, construído com o intuito de auxiliar o Aprendiz com o estudo de matemática elementar. Possui duas atividades: a primeira, "Contas", oferece desafios de operações aritméticas elementares; e a segunda, "Problemas", oferta problemas simples de matemática.
+
+O objetivo da atividade "Contas" é o treinamento aritmético simples; quatro expressões aritméticas incompletas são ofertadas por rodada, todas compartilhando um certo _grau de dificuldade_ que será ajustado de acordo com a performance do Aprendiz. E a atividade "Problemas" destina-se ao treinamento de soluções de problemas simples de aritmética, onde não somente a acurácia das operações mas também o procedimento utilizado na solução é relevante - o que implica dizer, _a priori_, que a natureza e a sequência de operações utilizadas na solução importam. Estas atividades não terão um término definido, podendo consistir em infinitas rodadas.
+
+A premissa é a de que as atividades sejam interessantes e desafiadoras, ao mesmo tempo, à luz da intenção maior do projeto - que relaciona-se ao suporte ao treinamento e ao aprendizado autônomos.
